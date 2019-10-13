@@ -30,9 +30,9 @@ public class PalletWar {
 	    {
 			resultPosition = results.indexOf(result);
 			OriginalPosition = midFight.indexOf(result);
-			fightsWon = OriginalPosition - resultPosition;		
-						
+			fightsWon = OriginalPosition - resultPosition;							
 			
+			// Máximo dos peleas/ victorias por pokemon
 			if (fightsWon > 2) {
 				isThereChaos = true;
 				break;
