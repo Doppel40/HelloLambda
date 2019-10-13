@@ -30,11 +30,7 @@ public class PalletWar {
 	    {
 			resultPosition = results.indexOf(result);
 			OriginalPosition = midFight.indexOf(result);
-			fightsWon = OriginalPosition - resultPosition;
-		/*	System.out.print(" pokemon "+result);
-			System.out.print(" Posición resultado "+resultPosition);
-			System.out.print(" Posición original "+OriginalPosition);
-			System.out.println(" Peleas "+fightsWon);*/
+			fightsWon = OriginalPosition - resultPosition;		
 						
 			
 			if (fightsWon > 2) {
